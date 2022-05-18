@@ -15,12 +15,15 @@ public void urlValidation(){
     WebDriverManager.chromedriver().setup();
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
-    driver.get("https://demo.opencart.com/admin/");
+    driver.get("https://www.etsy.com/");
     String actualUrl = driver.getCurrentUrl();
-    String expectedUrl = "https://demo.opencart.com/admin/";
+    String expectedUrl = "https://www.etsy.com/";
     Assert.assertEquals(actualUrl,expectedUrl);
-    // Note : as a tester always do at least one negative scenario.
 
-    System.out.println("Test Push");
+    WebElement signIn = driver.findElement(By.xpath("//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']"));
+    signIn.click();
+
+
+
 }
 }
