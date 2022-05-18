@@ -20,5 +20,7 @@ public void urlValidation(){
     String expectedUrl = "https://demo.opencart.com/admin/";
     Assert.assertEquals(actualUrl,expectedUrl);
     // Note : as a tester always do at least one negative scenario.
+
+    System.out.println("Test Push");
 }
 }
