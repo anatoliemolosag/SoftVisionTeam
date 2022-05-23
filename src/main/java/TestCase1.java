@@ -22,6 +22,11 @@ public void urlValidation(){
     // Note : as a tester always do at least one negative scenario.
 
     System.out.println("Test Push");
+
+    System.out.println();
+
+
     System.out.println("New TestTrial");
+
 }
 }
