@@ -21,6 +21,7 @@ public void jewelryAisDropdownMenu (){
 	
 	checkJewelryAccessory.isDisplayed();
 	Assert.assertEquals(actual,expected);
+	//System.out.println("Just testing");
 }
 
 }
