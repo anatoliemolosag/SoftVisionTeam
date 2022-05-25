@@ -10,7 +10,7 @@ public class TestCase6_1 {
 
 
     @Test
-    public void Validation() throws InterruptedException {
+    public void Validation(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.etsy.com/");
