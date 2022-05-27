@@ -1,3 +1,4 @@
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,4 +32,7 @@ public void JewelryAccIsDisplayed () throws InterruptedException {
 	System.out.println(names);
 	
 }
+
+public class TestCase3_2 {
+
 }

@@ -1,3 +1,4 @@
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,5 +24,8 @@ public void jewelryAisDropdownMenu (){
 	//System.out.println("Just testing");
 	
 }
+
+
+public class TestCase3_1 {
 
 }
