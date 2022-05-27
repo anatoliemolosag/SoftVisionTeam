@@ -6,6 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class TestCase3_2 {
 @Test
 public void JewelryAccIsDisplayed () throws InterruptedException {
@@ -21,7 +25,7 @@ public void JewelryAccIsDisplayed () throws InterruptedException {
 	List<String > names = new ArrayList<>();
 	Actions actions = new Actions(driver);
 	for (int i =0;i<allCatergories.size();i ++){
-		names.add(BrowserUtils.getText(allCatergories.get(i)));
+		names.add(allCatergories.get(i).getText());
 	}
 	Collections.sort(names);
 	System.out.println(names);

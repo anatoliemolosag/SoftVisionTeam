@@ -18,10 +18,10 @@ public void jewelryAisDropdownMenu (){
 	String expected = "https://www.etsy.com/";
 	
 	WebElement checkJewelryAccessory = driver.findElement(By.id("catnav-primary-link-10855"));
-	
 	checkJewelryAccessory.isDisplayed();
 	Assert.assertEquals(actual,expected);
 	//System.out.println("Just testing");
+	
 }
 
 }
