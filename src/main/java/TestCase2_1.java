@@ -19,6 +19,9 @@ public class TestCase2_1 {
         String expectedResult = "Father’s Day Gifts 2022";
 
         Assert.assertEquals(actualResult, expectedResult);
+        System.out.println("Hi");
+
+
     }
 
 
