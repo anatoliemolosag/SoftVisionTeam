@@ -9,5 +9,8 @@
         <module name="SoftVisionTeam" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SoftVisionTeam" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
