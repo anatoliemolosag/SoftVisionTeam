@@ -20,6 +20,8 @@ public class TestCase6_1 {
 
 
 
+
+
         WebElement headerOfCart=driver.findElement(By.xpath("//h1[contains(text(),'Your cart is empty.')]"));
         String actualHeader=headerOfCart.getText().trim();
         String expectedHeader="Your cart is empty.";
