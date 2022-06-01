@@ -9,23 +9,21 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestCase3_1 {
-@Test
-public void jewelryAisDropdownMenu (){
-	WebDriverManager.chromedriver().setup();
-	WebDriver driver=new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.get("https://www.etsy.com/");
-	String actual = driver.getCurrentUrl();
-	String expected = "https://www.etsy.com/";
-	
-	WebElement checkJewelryAccessory = driver.findElement(By.id("catnav-primary-link-10855"));
-	checkJewelryAccessory.isDisplayed();
-	Assert.assertEquals(actual,expected);
-	//System.out.println("Just testing");
-	
-}
+	@Test
+	public void jewelryAisDropdownMenu() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.etsy.com/");
+		String actual = driver.getCurrentUrl();
+		String expected = "https://www.etsy.com/";
 
+		WebElement checkJewelryAccessory = driver.findElement(By.id("catnav-primary-link-10855"));
+		checkJewelryAccessory.isDisplayed();
+		Assert.assertEquals(actual, expected);
+		//System.out.println("Just testing");
 
-public class TestCase3_1 {
+	}
+
 
 }
