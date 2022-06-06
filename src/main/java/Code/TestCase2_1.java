@@ -1,3 +1,5 @@
+package Code;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +21,6 @@ public class TestCase2_1 {
         String expectedResult = "Father’s Day Gifts 2022";
 
         Assert.assertEquals(actualResult, expectedResult);
-        System.out.println("Hi");
 
 
     }
