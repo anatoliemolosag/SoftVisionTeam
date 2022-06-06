@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name=" ETSY Regression Runner ">
+
+    <test name="ETSYCOM Tests">
+
+        <classes>
+
+            <class name="TestCase1_1"> </class>
+            <class name="TestCase1_2"> </class>
+            <class name="TestCase2_1"> </class>
+            <class name="TestCase2_2"> </class>
+            <class name="TestCase3_1"> </class>
+            <class name="TestCase3_2"> </class>
+            <class name="TestCase4_1"> </class>
+            <class name="TestCase4_2"> </class>
+            <class name="TestCase5_1"> </class>
+            <class name="TestCase5_2"> </class>
+            <class name="TestCase6_1"> </class>
+            <class name="TestCase6_2"> </class>
+            <class name="TestCase7_1"> </class>
+            <class name="TestCase7_2"> </class>
+            <class name="TestCase8_1"> </class>
+            <class name="TestCase8_2"> </class>
+
+
+        </classes>
+    </test>
+
+</suite>
